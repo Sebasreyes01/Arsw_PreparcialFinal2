@@ -15,6 +15,6 @@ import org.springframework.data.mongodb.repository.MongoRepository;
  */
 public interface MessageRepository extends MongoRepository<Message, String> {
     
-    public List<Message> findByDate(Date date);
+    public List<Message> findByDate(String date);
     
 }

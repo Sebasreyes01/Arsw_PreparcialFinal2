@@ -18,11 +18,11 @@ public class Message {
     public String id;
     
     public String message;
-    public Date date;
+    public String date;
     
     public Message() {}
     
-    public Message(String message, Date date) {
+    public Message(String message, String date) {
         this.message = message;
         this.date = date;
     }
