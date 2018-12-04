@@ -1,7 +1,8 @@
 var Message = (function () {
     
     var instance = axios.create({
-        baseURL: 'http://localhost:8080'
+        // baseURL: 'http://localhost:8080'
+        baseURL: 'https://arsw-lab9.herokuapp.com'
     });
     
     var _getInput = function () {

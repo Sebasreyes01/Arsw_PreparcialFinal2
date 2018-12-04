@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author Sebastián Reyes
  */
-@CrossOrigin(origins = "http://localhost:8080")
+//@CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping(value = "/messages")
 public class Preparcial2API {
